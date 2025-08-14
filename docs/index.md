@@ -15,7 +15,7 @@ hero:
       link: /api-examples
     - theme: brand
       text: JAVA Examples
-      link: /JAVA
+      link: /java
 
 features:
   - title: <img src="https://raw.githubusercontent.com/github/explore/main/topics/java/java.png" alt="Java" width="32" height="32" />JAVA
