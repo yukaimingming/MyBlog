@@ -9,17 +9,39 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '例子', link: '/markdown-examples' },
-      { text: 'JAVA知识库', link: '/java' }
+      {
+        text: '前端',   // 父导航
+        items: [
+          { text: 'vue', link: '/vue' },
+          { text: 'react', link: '/react' }
+        ]
+      },
+      {
+        text: '后端',   // 父导航
+        items: [
+          { text: 'c#', link: '/csharp' },
+          { text: '.net core', link: '/core' },
+          { text: 'JAVA知识库', link: '/java' },
+          { text: 'Spring Framework 中文文档', link: '/spring' }
+        ]
+      },
+      {
+        text: '其它',
+        items: [
+
+          { text: '例子', link: '/markdown-examples' }
+        ]
+      }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'JAVA Examples', link: '/java' }
+          { text: '📝 Markdown Examples', link: '/markdown-examples' },
+          { text: '🌱 Runtime API Examples', link: '/api-examples' },
+          { text: '☕️ JAVA 知识', link: '/java' },
+          { text: '🌐  Spring Framework 中文文档', link: '/spring' }
         ]
       }
     ],
@@ -45,6 +67,9 @@ export default defineConfig({
           }
         }
       }
+    },
+    footer: {
+      copyright: 'Copyright@ 2025 Kelefie. All rights reserved.'
     }
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

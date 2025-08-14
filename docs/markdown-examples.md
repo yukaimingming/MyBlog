@@ -32,13 +32,6 @@ export default {
 }
 ```
 
-**Output**
-
-```java{3}
-String ls_test;
-ls_test = "java";
-System.out.println(ls_test);
-```
 
 ## Custom Containers
 
