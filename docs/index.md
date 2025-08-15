@@ -26,6 +26,9 @@ hero:
       text: c#
       link: /c#
     - theme: brand
+      text: .net core
+      link: /core
+    - theme: brand
       text: vue
       link: /vue
 

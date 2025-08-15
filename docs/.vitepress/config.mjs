@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/myblog/',
-  title: "Kelefie 学习库",
+  title: "Kelefie笔记",
   description: "A VitePress Site",
   head: [["link", { rel: "icon", href: "/myblog/logo.svg" }]],
   themeConfig: {
@@ -24,14 +24,15 @@ export default defineConfig({
           { text: 'c#', link: '/csharp' },
           { text: '.net core', link: '/core' },
           { text: 'JAVA知识库', link: '/java' },
-          { text: 'Spring Framework 中文文档', link: '/spring' }
+          { text: 'Spring Framework 中文文档', link: '/spring' },
+          { text: 'Maven', link: '/maven' }
         ]
       },
       {
         text: '其它',
         items: [
-
-          { text: '例子', link: '/markdown-examples' }
+          { text: 'docker教程', link: '/docker' },
+          { text: '其它', link: '/other' }
         ]
       }
     ],
@@ -41,9 +42,12 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: '📝 c#', link: '/csharp' },
-          { text: '🌱 vue', link: '/vue' },
+          { text: '📝 .net core', link: '/core' },
           { text: '☕️ JAVA 知识', link: '/java' },
-          { text: '🌐  Spring Framework 中文文档', link: '/spring' }
+          { text: '🌐  Spring Framework 中文文档', link: '/spring' },
+          { text: '📝  Maven', link: '/maven' },
+          { text: '🌱 vue', link: '/vue' },
+          { text: '🌱 react', link: '/react' }
         ]
       }
     ],
