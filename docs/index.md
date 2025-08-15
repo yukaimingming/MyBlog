@@ -6,6 +6,9 @@ hero:
   name: "春风得意马蹄疾 一日看尽长安花"
   text: "起风了 该学习了"
   tagline: 知识库
+  image:
+    src: /bk.svg
+    alt: 背景图
   actions:
     # - theme: brand
     #   text: Markdown Examples
@@ -21,7 +24,7 @@ hero:
       link: /spring
     - theme: brand
       text: c#
-      link: /c#  
+      link: /c#
     - theme: brand
       text: vue
       link: /vue
